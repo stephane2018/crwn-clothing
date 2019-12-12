@@ -45,7 +45,7 @@ import './sign-in.style.scss'
       values={this.state.password} 
       required />
     <div className='buttons'>
-    <CustomButton type="button">Sign Up </CustomButton>
+    <CustomButton type="button">Sign In </CustomButton>
     <CustomButton onClick={SignInWithGoogle} isGoogleSignIn>Sign In with google </CustomButton>
     </div>
       </form>
